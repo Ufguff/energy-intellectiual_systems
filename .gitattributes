@@ -1,0 +1,52 @@
+# Автоопределение текстовых файлов и нормализация переносов строк
+* text=auto
+
+# --- Python исходники ---
+*.py  text eol=lf diff=python
+*.pyi text eol=lf diff=python
+*.pyx text eol=lf diff=python
+*.pxd text eol=lf diff=python
+*.py3 text eol=lf diff=python
+*.pyw text eol=lf diff=python
+
+# --- Jupyter Notebooks ---
+*.ipynb text eol=lf
+
+# --- Конфигурационные файлы и скрипты ---
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.toml  text eol=lf
+*.ini   text eol=lf
+*.cfg   text eol=lf
+*.json  text eol=lf
+*.sh    text eol=lf
+*.bash  text eol=lf
+Makefile text eol=lf
+
+# --- Документация ---
+*.md   text eol=lf diff=markdown
+*.rst  text eol=lf
+*.txt  text eol=lf
+LICENSE text eol=lf
+
+# --- Бинарные файлы Python ---
+*.db     binary
+*.p      binary
+*.pkl    binary
+*.pickle binary
+*.pyc    binary export-ignore
+*.pyo    binary export-ignore
+*.pyd    binary
+
+# --- Данные и артефакты ---
+*.whl binary
+*.tar binary
+*.zip binary
+*.gz  binary
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# --- Git Diff Settings ---
+*.py diff=python
+*.md diff=markdown

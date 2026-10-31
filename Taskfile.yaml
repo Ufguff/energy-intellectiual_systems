@@ -1,0 +1,18 @@
+version: "3"
+
+vars:
+  SRC_DIR: src/
+  INFO_DIR: info/
+  DATA_DIR: "{{.TASKFILE_DIR}}/data"
+
+tasks:
+  default:
+    desc: "Показать список всех задач"
+    cmds:
+      - task --list
+
+  hash:
+    desc: "Сверить хеш загруженных данных"
+    dir: "{{.DATA_DIR}}"
+    cmds:
+      - sha256sum -c MANIFEST.sha256
