@@ -1,0 +1,19 @@
+{
+  "algorithm": "sha256",
+  "verified_against": "data/MANIFEST.sha256",
+  "all_match": true,
+  "files": [
+    {
+      "path": "data/ENB2012_data.xlsx",
+      "sha256": "0089fcffc1415e41e2ff63730cca5280efe54fc43d722dfde1b0aaa808e35dc4",
+      "size_bytes": 76189,
+      "manifest_match": true
+    },
+    {
+      "path": "data/energy_efficiency.zip",
+      "sha256": "499441eee27929a4b00417f58fd8c63c9cc14b8a71520cd0dd27fcb626738351",
+      "size_bytes": 76321,
+      "manifest_match": true
+    }
+  ]
+}
