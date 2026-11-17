@@ -9,6 +9,7 @@
 |Хеш коммита кода|`d444b0d79ad3d97ef1e12f039d72268ebf053a79`|
 |Хеш данных `ENB2012_data.xlsx`|`0089fcffc1415e41e2ff63730cca5280efe54fc43d722dfde1b0aaa808e35dc4`|
 |Хеш данных `energy_efficiency.zip`|`499441eee27929a4b00417f58fd8c63c9cc14b8a71520cd0dd27fcb626738351`|
+| Гитхаб | https://github.com/Ufguff/energy-intellectiual_systems |
 
 ## Цель работы
 
