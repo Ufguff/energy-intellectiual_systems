@@ -1,0 +1,16 @@
+[OK] отказ: нет файла данных
+     ValidationError: 1 validation error for PipelineConfig
+data_path
+  Value error, data_path не существует: /home/ufguff/Documents/1 University/energy-intellectiual-systems/data/missing.xlsx [type=value_error, input_value=PosixPath('/home/ufguff/D...tems/data/missing.xlsx'), input_type=PosixPath]
+    For further information visit https://errors.pydantic.dev/2.14/v/value_error
+
+[OK] отказ: chunk_size = 0
+     ValidationError: 1 validation error for PipelineConfig
+chunk_size
+  Value error, значение должно быть > 0, получено 0 [type=value_error, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.14/v/value_error
+
+[OK] отказ: val_size + test_size >= 1
+     ValidationError: 1 validation error for PipelineConfig
+  Value error, val_size + test_size должно быть < 1 [type=value_error, input_value={'data_path': PosixPath('...: 0.6, 'test_size': 0.6}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/value_error
