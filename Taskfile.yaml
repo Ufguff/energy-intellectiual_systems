@@ -16,3 +16,13 @@ tasks:
     dir: "{{.DATA_DIR}}"
     cmds:
       - sha256sum -c MANIFEST.sha256
+
+  lab2:
+    desc: "ЛР2: ML-пайплайн, полный датасет vs чанки"
+    cmds:
+      - PYTHONPATH=src .venv/bin/python -m energy.run
+
+  lab2-negative:
+    desc: "ЛР2: негативные контроли"
+    cmds:
+      - PYTHONPATH=src .venv/bin/python -m energy.negative
